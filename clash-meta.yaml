@@ -29,7 +29,7 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - tls://8.8.4.4
+    - tls://dns.google
     - tls://1.1.1.1
   proxy-server-nameserver:
     - https://doh.pub/dns-query
