@@ -134,6 +134,16 @@ proxies:
      path: "/"
      headers:
        Host: jp.heshihuakai.me
+  - name: 🇨🇳 CN-洛杉矶
+    type: vless
+    server: g1.getmc.cn
+    port: 59168
+    uuid: cda8e207-097a-4d09-faee-03cd10759412
+    udp: true
+    tls: false
+    network: ws
+    ws-opts: 
+      path: "/"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -142,6 +152,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -156,6 +167,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-750G
       - 🇺🇸 US-洛杉矶-1.5TB
@@ -168,6 +180,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -181,6 +194,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -194,6 +208,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -207,6 +222,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -220,6 +236,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -233,6 +250,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -246,6 +264,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -258,6 +277,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -271,6 +291,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -284,6 +305,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -297,6 +319,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -310,6 +333,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -323,6 +347,7 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -335,6 +360,7 @@ proxy-groups:
       - 镇江bgp
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -371,6 +397,7 @@ proxy-groups:
       - 🇯🇵 JP-日本-东京
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
+      - 🇨🇳 CN-洛杉矶
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
