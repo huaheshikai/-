@@ -50,6 +50,10 @@ proxies:
     type: socks5
     server: g1.getmc.cn
     port: 33409
+  - name: "成都阿里云"
+    type: socks5
+    server: 47.109.44.134
+    port: 36183
   - name:  "la-hysteria2"
     type: hysteria2
     server: la.riluowuhai.eu.org
@@ -232,6 +236,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 成都阿里云
       - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
@@ -260,6 +265,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
@@ -286,6 +292,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
@@ -300,6 +307,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
@@ -314,6 +322,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
@@ -328,6 +337,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
@@ -342,6 +352,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
@@ -357,6 +368,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🇩🇪 DE-德国-1TB-下载专用
       - cloud
@@ -392,6 +404,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
+      - 成都阿里云
       - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇯🇵 JP-日本-东京
