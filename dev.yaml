@@ -54,6 +54,19 @@ proxies:
     port: 31166
     password: RiLuoWuHai
     skip-cert-verify: true
+  - name: "tuic5-la"
+    server: natla2.bytevirt.net
+    port: 30208
+    type: tuic
+    uuid: ffdbc2cf-420a-40df-bbb1-a0cdd99b5364
+    password: RiLuoWuHai
+    sni: bing.com
+    alpn:
+    - h3
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bbr
   - name: "de-tuic5"
     server: natde1.bytevirt.net
     port: 31159
@@ -182,6 +195,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - tuic5-la
       - nat-la-hysteria2
       - de-tuic5
       - de-hysteria2
