@@ -54,6 +54,19 @@ proxies:
     port: 31166
     password: RiLuoWuHai
     skip-cert-verify: true
+  - name: "de-tuic5"
+    server: natde1.bytevirt.net
+    port: 31159
+    type: tuic
+    uuid: ecee937c-2a5c-4666-b4c9-3734e16bdf56
+    password: RiLuoWuHai
+    sni: bing.com
+    alpn:
+    - h3
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bbr
   - name: "镇江bgp"
     type: socks5
     server: g1.getmc.cn
@@ -161,6 +174,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - de-tuic5
       - de-hysteria2
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
