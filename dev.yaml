@@ -67,6 +67,14 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
+  - name:  "nat-la-hysteria2"
+    type: hysteria2
+    server: natla2.bytevirt.net
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 30212
+    password: RiLuoWuHai
+    skip-cert-verify: true
   - name: "镇江bgp"
     type: socks5
     server: g1.getmc.cn
@@ -174,6 +182,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - nat-la-hysteria2
       - de-tuic5
       - de-hysteria2
       - 🇭🇰 hk-香港
