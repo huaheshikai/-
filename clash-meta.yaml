@@ -46,6 +46,27 @@ fallback-filter:
       - '+.facebook.com'
       - '+.youtube.com'
 proxies:
+  - name:  "de-hysteria2"
+    type: hysteria2
+    server: natde1.bytevirt.net
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 31166
+    password: RiLuoWuHai
+    skip-cert-verify: true
+  - name: "de-tuic5"
+    server: natde1.bytevirt.net
+    port: 31159
+    type: tuic
+    uuid: ecee937c-2a5c-4666-b4c9-3734e16bdf56
+    password: RiLuoWuHai
+    sni: bing.com
+    alpn:
+    - h3
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bbr
   - name: "镇江bgp"
     type: socks5
     server: g1.getmc.cn
@@ -155,6 +176,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -170,6 +193,8 @@ proxy-groups:
     proxies:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -183,6 +208,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -197,6 +224,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -211,6 +240,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -225,6 +256,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -240,6 +273,8 @@ proxy-groups:
       - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -254,6 +289,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -269,6 +306,8 @@ proxy-groups:
       - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -282,6 +321,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -297,6 +338,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -312,6 +355,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -327,6 +372,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -342,6 +389,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -357,6 +406,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -371,6 +422,8 @@ proxy-groups:
       - 成都阿里云
       - 镇江bgp
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
@@ -409,6 +462,8 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇯🇵 JP-日本-东京
       - 🇩🇪 DE-德国-1TB-下载专用
+      - de-hysteria2
+      - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
       - la-hysteria2
