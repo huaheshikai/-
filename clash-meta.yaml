@@ -67,6 +67,27 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
+  - name:  "nat-la-hysteria2"
+    type: hysteria2
+    server: natla2.bytevirt.net
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 30204
+    password: RiLuoWuHai
+    skip-cert-verify: true
+  - name: "la-tuic5"
+    server: natla2.bytevirt.net
+    port: 30205
+    type: tuic
+    uuid: 661841a8-e969-4845-bd14-a25a932c07a2
+    password: RiLuoWuHai
+    sni: bing.com
+    alpn:
+    - h3
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bbr
   - name: "镇江bgp"
     type: socks5
     server: g1.getmc.cn
@@ -180,6 +201,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -197,6 +220,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-750G
       - 🇺🇸 US-洛杉矶-1.5TB
@@ -212,6 +237,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -228,6 +255,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -244,6 +273,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -260,6 +291,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -277,6 +310,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -293,6 +328,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -310,6 +347,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -325,6 +364,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -342,6 +383,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -359,6 +402,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -376,6 +421,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -393,6 +440,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -410,6 +459,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -426,6 +477,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
@@ -466,6 +519,8 @@ proxy-groups:
       - de-tuic5
       - cloud
       - 🇨🇳 CN-洛杉矶
+      - nat-la-hysteria2
+      - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
