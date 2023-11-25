@@ -72,6 +72,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - xjp-hysteria2
+      - xjp-tuic5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
