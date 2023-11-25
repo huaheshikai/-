@@ -46,6 +46,27 @@ fallback-filter:
       - '+.facebook.com'
       - '+.youtube.com'
 proxies:
+  - name:  "xjp-hysteria2"
+    type: hysteria2
+    server: 8.219.183.170 
+    up: "30 Mbps"
+    down: "30 Mbps"
+    port: 55800
+    password: RiLuoWuHai
+    skip-cert-verify: true
+  - name: "xjp-tuic5"
+    server: 8.219.183.170
+    port: 55801
+    type: tuic
+    uuid: 6783ecce-d0bb-46a2-a2ed-c8a88de86db7
+    password: RiLuoWuHai
+    sni: bing.com
+    alpn:
+    - h3
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bbr
   - name:  "de-hysteria2"
     type: hysteria2
     server: natde1.bytevirt.net
@@ -202,6 +223,8 @@ proxy-groups:
       - cloud
       - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - la-tuic5
       - la-hysteria2
       - 🇺🇸 US-洛杉矶-1.5TB
@@ -223,6 +246,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-750G
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇯🇵 JP-日本-东京
@@ -240,6 +265,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -258,6 +285,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -276,6 +305,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -294,6 +325,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -313,6 +346,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -331,6 +366,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -350,6 +387,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -367,6 +406,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -386,6 +427,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -405,6 +448,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -424,6 +469,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -443,6 +490,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -462,6 +511,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -480,6 +531,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🚀 节点选择
@@ -522,6 +575,8 @@ proxy-groups:
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
+      - xjp-hysteria2
+      - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
 rules:
