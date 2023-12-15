@@ -59808,8 +59808,6 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软Bing
-  - DOMAIN-SUFFIX,copilot.microsoft.com,Ⓜ️ 微软Bing
   - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
   - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
