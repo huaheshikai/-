@@ -189,6 +189,14 @@ proxies:
     reality-opts:
       public-key: zMhOORFeUBkjy1DBnOk5_ZCTpbWEwi0iTJx0Z3vbkig
     client-fingerprint: chrome
+  - name:  "🇯🇵 JP-hysteria2"
+    type: hysteria2
+    server: natjp1.bytevirt.net
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 36711
+    password: RiLuoWuHai
+    skip-cert-verify: true
   - name: 🇯🇵 JP-日本-东京
     type: vless
     server: dns.baimengyu.online
@@ -230,6 +238,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -251,6 +260,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-750G
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
   - name: 📲 电报消息
     type: select
     proxies:
@@ -270,6 +280,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 💬 OpenAi
     type: select
@@ -290,6 +301,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 📹 油管视频
     type: select
@@ -310,6 +322,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -330,6 +343,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
@@ -351,6 +365,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -371,6 +386,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 🌏 国内媒体
     type: select
@@ -392,6 +408,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -411,6 +428,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -432,6 +450,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -453,6 +472,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -474,6 +494,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
   - name: 🎮 游戏平台
     type: select
     proxies:
@@ -495,6 +516,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -516,6 +538,7 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
@@ -567,6 +590,7 @@ proxy-groups:
       - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇯🇵 JP-日本-东京
+      - 🇯🇵 JP-hysteria2
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
