@@ -71325,6 +71325,7 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,💬 OpenAi
   - DOMAIN-SUFFIX,sentry.io,💬 OpenAi
   - DOMAIN-SUFFIX,stripe.com,💬 OpenAi
+  - DOMAIN-SUFFIX,cdn.oaistatic.com,💬 OpenAi
   - DOMAIN-SUFFIX,163yun.com,🎶 网易音乐
   - DOMAIN-SUFFIX,api.iplay.163.com,🎶 网易音乐
   - DOMAIN-SUFFIX,hz.netease.com,🎶 网易音乐
