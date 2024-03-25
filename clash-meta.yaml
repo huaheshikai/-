@@ -122,7 +122,7 @@ proxies:
     ws-opts:
      path: "/"
      headers:
-       Host: hk.heshihuakai.me
+       Host: hk.huaheshikai.eu.org
   - name: 🇩🇪 DE-德国-1TB-下载专用
     server: dns.baimengyu.online
     type: vless
@@ -134,7 +134,7 @@ proxies:
     ws-opts:
      path: "/"
      headers:
-       Host: de.heshihuakai.me
+       Host: de.huaheshikai.eu.org
   - name: "cloud"
     type: vless
     server: dns.baimengyu.online
@@ -193,7 +193,7 @@ proxies:
     ws-opts:
      path: "/"
      headers:
-       Host: jp.heshihuakai.me
+       Host: jp.huaheshikai.eu.org
   - name: 🇨🇳 CN-洛杉矶
     type: vless
     server: g1.getmc.cn
