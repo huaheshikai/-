@@ -1,7 +1,4 @@
-port: 7890
-socks-port: 7891
 allow-lan: true
-mode: Rule
 log-level: info
 external-controller: :9090
 global-client-fingerprint: chrome
@@ -28,6 +25,7 @@ dns:
 proxy-server-nameserver:
     - https://dns.google/dns-query
     - tls://one.one.one.one
+
 proxies:
   - name:  "xjp-hysteria2"
     type: hysteria2
@@ -79,6 +77,14 @@ proxies:
     port: 30204
     password: RiLuoWuHai
     skip-cert-verify: true
+  - name: "la-hysteria2"
+    type: hysteria2
+    server: 108.165.254.86 
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 443
+    password: RiLuoWuHai
+    skip-cert-verify: true
   - name: "la-tuic5"
     server: natla2.bytevirt.net
     port: 30205
@@ -100,15 +106,6 @@ proxies:
     type: socks5
     server: 47.109.44.134
     port: 36183
-  - name:  "la-hysteria2"
-    type: hysteria2
-    type: hysteria2
-    server: 108.165.254.86 
-    up: "500 Mbps"
-    down: "500 Mbps"
-    port: 443
-    password: RiLuoWuHai
-    skip-cert-verify: true
   - name: 🇭🇰 hk-香港
     type: vless
     server: dns.baimengyu.online
