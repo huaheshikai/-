@@ -586,6 +586,7 @@ proxy-groups:
       - xjp-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
+
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
