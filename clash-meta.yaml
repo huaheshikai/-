@@ -27,7 +27,7 @@ proxy-server-nameserver:
     - tls://one.one.one.one
 
 proxies:
-  - name:  "xjp-hysteria2"
+  - name:  "🇸🇬 hysteria2"
     type: hysteria2
     server: 8.219.183.170 
     up: "30 Mbps"
@@ -35,7 +35,7 @@ proxies:
     port: 55800
     password: RiLuoWuHai
     skip-cert-verify: true
-  - name: "xjp-tuic5"
+  - name: "🇸🇬 tuic5"
     server: 8.219.183.170
     port: 55801
     type: tuic
@@ -48,7 +48,7 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
-  - name:  "de-hysteria2"
+  - name:  "🇩🇪 hysteria2"
     type: hysteria2
     server: natde1.bytevirt.net
     up: "500 Mbps"
@@ -56,7 +56,7 @@ proxies:
     port: 31166
     password: RiLuoWuHai
     skip-cert-verify: true
-  - name: "de-tuic5"
+  - name: "🇩🇪 tuic5"
     server: natde1.bytevirt.net
     port: 31159
     type: tuic
@@ -69,7 +69,7 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
-  - name:  "nat-la-hysteria2"
+  - name:  "🇺🇸 nat-la"
     type: hysteria2
     server: natla2.bytevirt.net
     up: "500 Mbps"
@@ -77,14 +77,14 @@ proxies:
     port: 30204
     password: RiLuoWuHai
     skip-cert-verify: true
-  - name: "la-hysteria2"
+  - name: "🇺🇸 la-hysteria2"
     type: ss
     server: 58.242.129.73
     port: 25682
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
     udp: true
-  - name: "la-tuic5"
+  - name: "🇺🇸 la-tuic5"
     server: natla2.bytevirt.net
     port: 30205
     type: tuic
@@ -97,7 +97,7 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
-  - name: "成都阿里云"
+  - name: "🇨🇳 成都"
     type: socks5
     server: 47.109.44.134
     port: 36183
@@ -155,14 +155,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
-      - la-tuic5
-      - la-hysteria2
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
+      - 🇺🇸 la-tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -174,14 +174,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-750G
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇯🇵 JP-日本-东京
@@ -191,14 +191,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -209,14 +209,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -227,14 +227,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -245,14 +245,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -261,16 +261,16 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -281,14 +281,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -297,16 +297,16 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -316,14 +316,14 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -331,17 +331,17 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🚀 节点选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -349,17 +349,17 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🚀 节点选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -367,17 +367,17 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🚀 节点选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -385,17 +385,17 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🚀 节点选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -403,17 +403,17 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🚀 节点选择
       - 🇭🇰 hk-香港
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -422,15 +422,15 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 成都阿里云
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇨🇳 成都
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🚀 节点选择
@@ -461,17 +461,17 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 成都阿里云
+      - 🇨🇳 成都
       - 🇭🇰 hk-香港
       - 🇯🇵 JP-日本-东京
-      - 🇩🇪 DE-德国-1TB-下载专用
-      - de-hysteria2
-      - de-tuic5
-      - nat-la-hysteria2
-      - la-tuic5
-      - la-hysteria2
-      - xjp-hysteria2
-      - xjp-tuic5
+      - 🇩🇪 DE-德国-1TB
+      - 🇩🇪 hysteria2
+      - 🇩🇪 tuic5
+      - 🇺🇸 nat-la
+      - 🇺🇸 la-tuic5
+      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
+      - 🇸🇬 tuic5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
 
