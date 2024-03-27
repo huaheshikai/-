@@ -78,13 +78,12 @@ proxies:
     password: RiLuoWuHai
     skip-cert-verify: true
   - name: "la-hysteria2"
-    type: hysteria2
-    server: 108.165.254.86 
-    up: "500 Mbps"
-    down: "500 Mbps"
-    port: 443
-    password: RiLuoWuHai
-    skip-cert-verify: true
+    type: ss
+    server: 58.242.129.73
+    port: 25682
+    cipher: 2022-blake3-aes-256-gcm
+    password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
+    udp: true
   - name: "la-tuic5"
     server: natla2.bytevirt.net
     port: 30205
@@ -98,51 +97,25 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
-  - name: "镇江bgp"
-    type: socks5
-    server: g1.getmc.cn
-    port: 33409
   - name: "成都阿里云"
     type: socks5
     server: 47.109.44.134
     port: 36183
+    udp: true
   - name: 🇭🇰 hk-香港
-    type: vless
-    server: dns.baimengyu.online
-    port: 80
-    uuid: c340fcc2-314c-4104-a8fb-83bf37e14dc7
+    type: ss
+    server: 58.242.129.73
+    port: 25673
+    cipher: 2022-blake3-aes-256-gcm
+    password: "pejTIWc7XbVEIHuqNxRKWifhBRpubH7f3RTSWaSvOq8="
     udp: true
-    tls: false
-    network: ws
-    ws-opts:
-     path: "/"
-     headers:
-       Host: hk.huaheshikai.eu.org
-  - name: 🇩🇪 DE-德国-1TB-下载专用
-    server: dns.baimengyu.online
-    type: vless
-    port: 80
-    uuid: 7dddb48f-5261-4ac2-80a3-8dc4e6ab04e7
+  - name: 🇩🇪 DE-德国-1TB
+    type: ss
+    server: 183.236.51.16
+    port: 10932
+    cipher: 2022-blake3-aes-256-gcm
+    password: "GkqE2jkpkkFf+hSYBd7my1O741AF4IhH9Km49XldG8M="
     udp: true
-    tls: false
-    network: ws
-    ws-opts:
-     path: "/"
-     headers:
-       Host: de.huaheshikai.eu.org
-  - name: "cloud"
-    type: vless
-    server: dns.baimengyu.online
-    port: 443
-    uuid: b28139df-b908-404b-a959-62f77ecb9e5b
-    udp: true
-    tls: true
-    network: ws
-    servername: works.riluowuhai.eu.org 
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-       Host: works.riluowuhai.eu.org
   - name: 🇺🇸 US-洛杉矶-1.5TB
     server: 108.165.254.86
     type: vless
@@ -169,36 +142,13 @@ proxies:
     reality-opts:
       public-key: zMhOORFeUBkjy1DBnOk5_ZCTpbWEwi0iTJx0Z3vbkig
     client-fingerprint: chrome
-  - name:  "🇯🇵 JP-hysteria2"
-    type: hysteria2
-    server: natjp1.bytevirt.net
-    up: "500 Mbps"
-    down: "500 Mbps"
-    port: 36711
-    password: RiLuoWuHai
-    skip-cert-verify: true
   - name: 🇯🇵 JP-日本-东京
-    type: vless
-    server: dns.baimengyu.online
-    port: 80
-    uuid: df42e25a-468a-4795-be50-afc7c3eb91d1
+    type: ss
+    server: 58.242.129.73
+    port: 46780
+    cipher: 2022-blake3-aes-256-gcm
+    password: "+buIz+YD7U3I0H5grHf/XTI7GpaXkPjawmFkxcJhMwo="
     udp: true
-    tls: false
-    network: ws
-    ws-opts:
-     path: "/"
-     headers:
-       Host: jp.huaheshikai.eu.org
-  - name: 🇨🇳 CN-洛杉矶
-    type: vless
-    server: g1.getmc.cn
-    port: 59168
-    uuid: cda8e207-097a-4d09-faee-03cd10759412
-    udp: true
-    tls: false
-    network: ws
-    ws-opts: 
-      path: "/"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -208,8 +158,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - xjp-hysteria2
       - xjp-tuic5
@@ -218,7 +166,6 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -230,8 +177,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -240,7 +185,6 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-750G
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
   - name: 📲 电报消息
     type: select
     proxies:
@@ -250,8 +194,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -260,7 +202,6 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 💬 OpenAi
     type: select
@@ -271,8 +212,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -281,7 +220,6 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 📹 油管视频
     type: select
@@ -292,8 +230,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -302,7 +238,6 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -313,8 +248,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -323,20 +256,16 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
     proxies:
       - 🎯 全球直连
       - 成都阿里云
-      - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -345,7 +274,6 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -356,8 +284,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -366,20 +292,16 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -388,7 +310,6 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -398,8 +319,6 @@ proxy-groups:
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -408,20 +327,16 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -430,20 +345,16 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -452,20 +363,16 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -474,20 +381,16 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
   - name: 🎮 游戏平台
     type: select
     proxies:
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -496,20 +399,16 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
   - name: 🎶 网易音乐
     type: select
     proxies:
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🚀 节点选择
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -518,19 +417,15 @@ proxy-groups:
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
@@ -567,15 +462,11 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 成都阿里云
-      - 镇江bgp
       - 🇭🇰 hk-香港
       - 🇯🇵 JP-日本-东京
-      - 🇯🇵 JP-hysteria2
       - 🇩🇪 DE-德国-1TB-下载专用
       - de-hysteria2
       - de-tuic5
-      - cloud
-      - 🇨🇳 CN-洛杉矶
       - nat-la-hysteria2
       - la-tuic5
       - la-hysteria2
