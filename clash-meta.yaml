@@ -24,8 +24,6 @@ dns:
     - 8.8.8.8 
     - tls://223.5.5.5:853 
     - https://doh.pub/dns-query 
-    - https://dns.alidns.com/dns-query#h3=true 
-    - https://mozilla.cloudflare-dns.com/dns-query#DNS&h3=true 
     - quic://dns.adguard.com:784
 proxy-server-nameserver:
     - https://dns.google/dns-query
@@ -104,13 +102,13 @@ proxies:
     port: 36183
   - name:  "la-hysteria2"
     type: hysteria2
-    server: la.riluowuhai.eu.org
+    type: hysteria2
+    server: 108.165.254.86 
     up: "500 Mbps"
     down: "500 Mbps"
     port: 443
     password: RiLuoWuHai
-    sni: la.riluowuhai.eu.org
-    skip-cert-verify: false
+    skip-cert-verify: true
   - name: 🇭🇰 hk-香港
     type: vless
     server: dns.baimengyu.online
