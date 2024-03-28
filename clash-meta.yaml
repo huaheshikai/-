@@ -17,7 +17,6 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver:
-  nameserver:
     - 114.114.114.114 # default value
     - 8.8.8.8 # default value
     - tls://223.5.5.5:853 # DNS over TLS
