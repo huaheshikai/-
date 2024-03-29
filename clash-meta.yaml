@@ -85,19 +85,13 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
     udp: true
-  - name: "🇺🇸 la-tuic5"
-    server: natla2.bytevirt.net
-    port: 30205
-    type: tuic
-    uuid: 661841a8-e969-4845-bd14-a25a932c07a2
-    password: RiLuoWuHai
-    sni: bing.com
-    alpn:
-    - h3
-    request-timeout: 8000
-    udp-relay-mode: native
-    skip-cert-verify: true
-    congestion-controller: bbr
+  - name: "🇺🇸 安徽CM-洛杉矶 x1.5"
+    type: ss
+    server: 112.29.215.171
+    port: 46555
+    cipher: 2022-blake3-aes-256-gcm
+    password: "84zjd3rf6Med0ZuYMxhb3dLhxVfKZgiSgz9WAXB5dY4=:xlWZpZ//bvFUCnMxhsnLUowPsOjmq3V6ocH1z/XWGnQ="
+    udp: true
   - name: "🇨🇳 成都"
     type: socks5
     server: 47.109.44.134
@@ -163,7 +157,7 @@ proxy-groups:
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 US-洛杉矶-1.5TB
       - 🇺🇸 US-洛杉矶-750G
       - 🇯🇵 JP-日本-东京
@@ -179,7 +173,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -196,7 +190,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -214,7 +208,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -232,7 +226,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -250,7 +244,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -268,7 +262,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -286,7 +280,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -304,7 +298,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -321,7 +315,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -339,7 +333,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -357,7 +351,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -375,7 +369,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -393,7 +387,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -411,7 +405,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -428,7 +422,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
@@ -469,7 +463,7 @@ proxy-groups:
       - 🇩🇪 hysteria2
       - 🇩🇪 tuic5
       - 🇺🇸 nat-la
-      - 🇺🇸 la-tuic5
+      - 🇺🇸 安徽CM-洛杉矶 x1.5
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
       - 🇸🇬 tuic5
