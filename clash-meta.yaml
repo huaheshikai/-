@@ -125,18 +125,12 @@ proxies:
       public-key: Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4
     client-fingerprint: chrome
   - name: 🇺🇸 US-洛杉矶-750G
-    server: natla2.bytevirt.net
-    type: vless
-    port: 30208
-    uuid: 05e94a00-d35f-4877-939b-f02251669005
-    network: tcp
-    servername: privacy.microsoft.com
-    flow: xtls-rprx-vision
+    type: ss
+    server: 58.242.130.180
+    port: 27517
+    cipher: 2022-blake3-aes-256-gcm
+    password: "MnG3jyKkegPcuFI/QCxwjfJOce76ixWnwIwkiHeeOf4=:0k1tLNUAeJNBjCKkBE+mBGlLmyhjSok6dSbjIv1/Q/4="
     udp: true
-    tls: true
-    reality-opts:
-      public-key: zMhOORFeUBkjy1DBnOk5_ZCTpbWEwi0iTJx0Z3vbkig
-    client-fingerprint: chrome
   - name: 🇯🇵 JP-日本-东京
     type: ss
     server: 58.242.129.73
