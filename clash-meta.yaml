@@ -57,19 +57,6 @@ proxies:
     port: 31166
     password: RiLuoWuHai
     skip-cert-verify: true
-  - name: "🇩🇪 tuic5"
-    server: natde1.bytevirt.net
-    port: 31159
-    type: tuic
-    uuid: ecee937c-2a5c-4666-b4c9-3734e16bdf56
-    password: RiLuoWuHai
-    sni: bing.com
-    alpn:
-    - h3
-    request-timeout: 8000
-    udp-relay-mode: native
-    skip-cert-verify: true
-    congestion-controller: bbr
   - name:  "🇺🇸 nat-la"
     type: hysteria2
     server: natla2.bytevirt.net
@@ -146,7 +133,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 la-hysteria2
       - 🇸🇬 hysteria2
@@ -165,7 +151,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -182,7 +167,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -200,7 +184,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -218,7 +201,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -236,7 +218,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -254,7 +235,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -272,7 +252,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -290,7 +269,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -307,7 +285,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -325,7 +302,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -343,7 +319,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -361,7 +336,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -379,7 +353,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -397,7 +370,6 @@ proxy-groups:
       - 🇭🇰 hk-香港
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -414,7 +386,6 @@ proxy-groups:
       - 🇨🇳 成都
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
@@ -455,7 +426,6 @@ proxy-groups:
       - 🇯🇵 JP-日本-东京
       - 🇩🇪 DE-德国-1TB
       - 🇩🇪 hysteria2
-      - 🇩🇪 tuic5
       - 🇺🇸 nat-la
       - 🇺🇸 广州CM-香港 x1.5
       - 🇺🇸 la-hysteria2
