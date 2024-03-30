@@ -67,7 +67,7 @@ proxies:
     skip-cert-verify: true
   - name: "🇺🇸 la-hysteria2"
     type: ss
-    server: baimengyu.online
+    server: la.baimengyu.online
     port: 25682
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
@@ -86,8 +86,8 @@ proxies:
     udp: true
   - name: 🇭🇰 hk-香港
     type: ss
-    server: 58.242.129.73
-    port: 25673
+    server: hk.baimengyu.online
+    port: 34631
     cipher: 2022-blake3-aes-256-gcm
     password: "pejTIWc7XbVEIHuqNxRKWifhBRpubH7f3RTSWaSvOq8="
     udp: true
@@ -120,7 +120,7 @@ proxies:
     udp: true
   - name: 🇯🇵 JP-日本-东京
     type: ss
-    server: 58.242.129.73
+    server: jp.baimengyu.online
     port: 46780
     cipher: 2022-blake3-aes-256-gcm
     password: "+buIz+YD7U3I0H5grHf/XTI7GpaXkPjawmFkxcJhMwo="
