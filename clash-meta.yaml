@@ -67,7 +67,7 @@ proxies:
     skip-cert-verify: true
   - name: "🇺🇸 la-hysteria2"
     type: ss
-    server: 58.242.129.73
+    server: baimengyu.online
     port: 25682
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
