@@ -39,7 +39,7 @@ proxies:
   - name: "🇭🇰 安徽CU-香港"
     type: ss
     server: 58.242.130.180
-    port: 34631
+    port: 38727
     cipher: 2022-blake3-aes-256-gcm
     password: "pejTIWc7XbVEIHuqNxRKWifhBRpubH7f3RTSWaSvOq8="
     udp: true
