@@ -21,8 +21,8 @@ dns:
     - 8.8.8.8
     - tls://223.5.5.5:853
     - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query#h3=true
-    - https://mozilla.cloudflare-dns.com/dns-query#DNS&h3=true
+    - tls://pure.f.66a.net:853
+    - https://a.f.66a.net/dns-query/pure
     - quic://dns.adguard.com:784
   proxy-server-nameserver:
     - tls://pure.f.66a.net:853
