@@ -11,7 +11,6 @@ dns:
   default-nameserver:
     - 114.114.114.114
     - 223.5.5.5
-    - tls://pure.f.66a.net:853
     - tls://223.5.5.5:853
     - system
   enhanced-mode: fake-ip
