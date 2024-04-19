@@ -67,7 +67,7 @@ proxies:
     udp: true
   - name: "🇺🇸 广州CM-香港 x1.5"
     type: ss
-    server: 183.236.51.45
+    server: 183.236.51.57
     port: 46555
     cipher: 2022-blake3-aes-256-gcm
     password: "84zjd3rf6Med0ZuYMxhb3dLhxVfKZgiSgz9WAXB5dY4=:xlWZpZ//bvFUCnMxhsnLUowPsOjmq3V6ocH1z/XWGnQ="
