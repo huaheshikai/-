@@ -19,13 +19,11 @@ dns:
     - 114.114.114.114
     - 8.8.8.8
     - tls://223.5.5.5:853
-    - https://doh.pub/dns-query
-    - tls://pure.f.66a.net:853
-    - https://a.f.66a.net/dns-query/pure
-    - quic://dns.adguard.com:784
+    - https://i455546056.666.66a.net/dns-query/pure
+    - quic://pure.666.66a.net:853
   proxy-server-nameserver:
     - tls://pure.f.66a.net:853
-    - https://a.f.66a.net/dns-query/pure
+    - https://i455546056.666.66a.net/dns-query/pure
 proxies:
   - name:  "🇸🇬 hysteria2"
     type: hysteria2
