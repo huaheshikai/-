@@ -17,12 +17,11 @@ dns:
   fake-ip-range: 198.18.0.1/16
   nameserver:
     - 114.114.114.114
-    - 8.8.8.8
     - tls://223.5.5.5:853
     - https://i455546056.666.66a.net/dns-query/pure
     - quic://pure.666.66a.net:853
   proxy-server-nameserver:
-    - tls://pure.f.66a.net:853
+    - tls://i455546056.666.66a.net:853
     - https://i455546056.666.66a.net/dns-query/pure
 proxies:
   - name:  "🇸🇬 hysteria2"
