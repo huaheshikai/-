@@ -71163,6 +71163,7 @@ rules:
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报消息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报消息,no-resolve
   - DOMAIN-KEYWORD,openai,💬 OpenAi
+  - DOMAIN-SUFFIX,chatgpt.com,💬 OpenAi
   - DOMAIN-SUFFIX,auth0.com,💬 OpenAi
   - DOMAIN-SUFFIX,challenges.cloudflare.com,💬 OpenAi
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,💬 OpenAi
