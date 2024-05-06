@@ -70978,6 +70978,8 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软Bing
+  - DOMAIN-SUFFIX,copilot.microsoft.com,Ⓜ️ 微软Bing
   - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
   - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
@@ -71129,7 +71131,6 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,💬 OpenAi
   - DOMAIN-SUFFIX,sentry.io,💬 OpenAi
   - DOMAIN-SUFFIX,stripe.com,💬 OpenAi
-  - DOMAIN-SUFFIX,cdn.oaistatic.com,💬 OpenAi
   - DOMAIN-SUFFIX,163yun.com,🎶 网易音乐
   - DOMAIN-SUFFIX,api.iplay.163.com,🎶 网易音乐
   - DOMAIN-SUFFIX,hz.netease.com,🎶 网易音乐
