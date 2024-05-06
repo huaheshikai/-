@@ -90,7 +90,7 @@ proxies:
   - name: "🇭🇰 安徽CU-香港 x1.5"
     type: ss
     server: f339f3e7-5520-4268-8ca7-b0dcde7a402d.huaheshikai.eu.org
-    port: 29816
+    port: 29863
     cipher: 2022-blake3-aes-256-gcm
     password: "b5PdM6zqGM+dgRKstt9loHClRYmHkU/9zDc7VAmeHsE="
     udp: true
@@ -106,6 +106,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -133,11 +135,34 @@ proxy-groups:
       - 🇭🇰 上海-香港 x3
       - 🇭🇰 安徽CU-香港 x1.5
       - 🇭🇰 安徽CM-香港
+  - name: 🌎 美国
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 hysteria2
+      - 🇺🇸 上海-香港 x3
+      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 安徽CU-日本 x2
+      - 🇺🇸 安徽CU-香港 x1.5
+      - 🇺🇸 安徽CM-香港
+  - name: 🪐 香港
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 安徽CU-香港 x1.5
+      - 🇭🇰 安徽CM-香港
   - name: 📲 电报消息
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -154,6 +179,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -170,6 +197,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -186,6 +215,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -218,6 +249,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -234,7 +267,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🇨🇳 成都
-      - 🇺🇸 la-hysteria2
+      - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
       - 🇺🇸 上海-日本 x3
@@ -249,6 +282,8 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -265,6 +300,8 @@ proxy-groups:
       - DIRECT
       - 🇨🇳 成都
       - 🚀 节点选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
       - 🇺🇸 上海-日本 x3
@@ -280,6 +317,8 @@ proxy-groups:
       - DIRECT
       - 🇨🇳 成都
       - 🚀 节点选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -296,6 +335,8 @@ proxy-groups:
       - DIRECT
       - 🇨🇳 成都
       - 🚀 节点选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -312,6 +353,8 @@ proxy-groups:
       - DIRECT
       - 🇨🇳 成都
       - 🚀 节点选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -328,6 +371,8 @@ proxy-groups:
       - DIRECT
       - 🇨🇳 成都
       - 🚀 节点选择
+      - 🌎 美国
+      - 🪐 香港
       - 🇸🇬 hysteria2
       - 🇺🇸 hysteria2
       - 🇺🇸 上海-香港 x3
@@ -381,6 +426,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🌎 美国
+      - 🪐 香港
       - DIRECT
       - 🇨🇳 成都
       - 🇸🇬 hysteria2
@@ -393,7 +440,6 @@ proxy-groups:
       - 🇭🇰 上海-香港 x3
       - 🇭🇰 安徽CU-香港 x1.5
       - 🇭🇰 安徽CM-香港
-
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -70978,8 +71024,6 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软Bing
-  - DOMAIN-SUFFIX,copilot.microsoft.com,Ⓜ️ 微软Bing
   - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
   - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
@@ -71075,6 +71119,8 @@ rules:
   - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,copilot.microsoft.com,Ⓜ️ 微软服务
   - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
   - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
