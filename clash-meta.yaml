@@ -8271,6 +8271,8 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,copilot.microsoft.com,Ⓜ️ 微软云盘
   - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
   - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
@@ -8407,8 +8409,6 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报消息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报消息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报消息,no-resolve
-  - DOMAIN-SUFFIX,bing.com,💬 OpenAi
-  - DOMAIN-SUFFIX,copilot.microsoft.com, 💬 OpenAi
   - DOMAIN-KEYWORD,openai,💬 OpenAi
   - DOMAIN,gemini.google.com,💬 OpenAi
   - DOMAIN-SUFFIX,auth0.com,💬 OpenAi
@@ -8567,6 +8567,11 @@ rules:
   - IP-CIDR,203.75.84.0/24,🎥 奈飞视频,no-resolve
   - IP-CIDR,207.45.72.0/22,🎥 奈飞视频,no-resolve
   - IP-CIDR,208.75.76.0/22,🎥 奈飞视频,no-resolve
+  - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
+  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
+  - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
   - DOMAIN,p-bstarstatic.akamaized.net,📺 哔哩哔哩
   - DOMAIN,p.bstarstatic.com,📺 哔哩哔哩
   - DOMAIN,upos-bstar-mirrorakam.akamaized.net,📺 哔哩哔哩
