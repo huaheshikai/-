@@ -55,7 +55,7 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "Am09mTde7JFwrMawBmIA5c7ZDOQGJTTLwCAOZqASQlE="
     udp: true
-  - name: "🇺🇸 上海-日本 x3"
+  - name: "🇺🇸 联通-日本 x3"
     type: ss
     server: 803d0da0-1606-48df-914d-34cd235d8206.huaheshikai.eu.org
     port: 28494
@@ -76,17 +76,17 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
     udp: true
-  - name: "🇺🇸 安徽CM-香港"
+  - name: "🇺🇸 武汉-香港"
     type: ss
-    server: 3f6c3f59-67e5-48fb-9e61-e34e1db95227.huaheshikai.eu.org
-    port: 26645
+    server: 0428c217-b76f-40f0-b9df-b5fef7be0a34.huaheshikai.eu.org
+    port: 45737
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
     udp: true
-  - name: "🇭🇰 安徽CM-香港"
+  - name: "🇭🇰 武汉-香港"
     type: ss
-    server: 3f6c3f59-67e5-48fb-9e61-e34e1db95227.huaheshikai.eu.org
-    port: 26970
+    server: 049d691a-c65c-4e86-a79b-e32509851add.huaheshikai.eu.org
+    port: 25981
     cipher: 2022-blake3-aes-256-gcm
     password: "b5PdM6zqGM+dgRKstt9loHClRYmHkU/9zDc7VAmeHsE="
     udp: true
@@ -97,7 +97,7 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "b5PdM6zqGM+dgRKstt9loHClRYmHkU/9zDc7VAmeHsE="
     udp: true
-  - name: "🇭🇰 上海-香港 x3"
+  - name: "🇭🇰 联通-香港 x3"
     type: ss
     server: 803d0da0-1606-48df-914d-34cd235d8206.huaheshikai.eu.org
     port: 28492
@@ -114,13 +114,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -131,13 +131,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: 🌎 美国
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -145,19 +145,19 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
+      - 🇺🇸 武汉-香港
   - name: 🪐 香港
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 安徽CM-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: 📲 电报消息
     type: select
     proxies:
@@ -168,13 +168,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: 💬 OpenAi
     type: select
@@ -186,13 +186,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: 📹 油管视频
     type: select
@@ -204,13 +204,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -222,13 +222,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
@@ -238,13 +238,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -256,13 +256,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: 🌏 国内媒体
     type: select
@@ -272,13 +272,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -289,13 +289,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -307,13 +307,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -325,13 +325,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -343,13 +343,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: 🎮 游戏平台
     type: select
     proxies:
@@ -361,13 +361,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -379,13 +379,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
@@ -395,13 +395,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
       - 🚀 节点选择
       - ♻️ 自动选择
   - name: 🛑 广告拦截
@@ -436,13 +436,13 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇺🇸 hysteria2
-      - 🇺🇸 上海-日本 x3
+      - 🇺🇸 联通-日本 x3
       - 🇺🇸 广港IEPL1
       - 🇺🇸 广港IEPL2
-      - 🇺🇸 安徽CM-香港
-      - 🇭🇰 安徽CM-香港
+      - 🇺🇸 武汉-香港
+      - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
-      - 🇭🇰 上海-香港 x3
+      - 🇭🇰 联通-香港 x3
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
