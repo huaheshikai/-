@@ -435,205 +435,205 @@ rule-providers:
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
     path: ./ruleset/LocalAreaNetwork.list
-    interval: 259200
+    interval: 86400
   UnBan:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
     path: ./ruleset/UnBan.list
-    interval: 259200
+    interval: 86400
   BanAD:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
     path: ./ruleset/BanAD.list
-    interval: 259200
+    interval: 86400
   BanProgramAD:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
     path: ./ruleset/BanProgramAD.list
-    interval: 259200
+    interval: 86400
   BanEasyList:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
     path: ./ruleset/BanEasyList.list
-    interval: 259200
+    interval: 86400
   BanEasyListChina:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
     path: ./ruleset/BanEasyListChina.list
-    interval: 259200
+    interval: 86400
   BanEasyPrivacy:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
     path: ./ruleset/BanEasyPrivacy.list
-    interval: 259200
+    interval: 86400
   GoogleFCM:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleFCM.list"
     path: ./ruleset/GoogleFCM.list
-    interval: 259200
+    interval: 86400
   GoogleCN:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
     path: ./ruleset/GoogleCN.list
-    interval: 259200
+    interval: 86400
   SteamCN:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/SteamCN.list"
     path: ./ruleset/SteamCN.list
-    interval: 259200
+    interval: 86400
   Bing:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
     path: ./ruleset/Bing.list
-    interval: 259200
+    interval: 86400
   OneDrive:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
     path: ./ruleset/OneDrive.list
-    interval: 259200
+    interval: 86400
   Microsoft:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
     path: ./ruleset/Microsoft.list
-    interval: 259200
+    interval: 86400
   Apple:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
     path: ./ruleset/Apple.list
-    interval: 259200
+    interval: 86400
   Telegram:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
     path: ./ruleset/Telegram.list
-    interval: 259200
+    interval: 86400
   OpenAi:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+    url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OpenAi.list"
     path: ./ruleset/OpenAi.list
-    interval: 259200
+    interval: 86400
   NetEaseMusic:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/NetEaseMusic.list"
     path: ./ruleset/NetEaseMusic.list
-    interval: 259200
+    interval: 86400
   Epic:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Epic.list"
     path: ./ruleset/Epic.list
-    interval: 259200
+    interval: 86400
   Origin:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Origin.list"
     path: ./ruleset/Origin.list
-    interval: 259200
+    interval: 86400
   Sony:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Sony.list"
     path: ./ruleset/Sony.list
-    interval: 259200
+    interval: 86400
   Steam:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Steam.list"
     path: ./ruleset/Steam.list
-    interval: 259200
+    interval: 86400
   Nintendo:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Nintendo.list"
     path: ./ruleset/Nintendo.list
-    interval: 259200
+    interval: 86400
   YouTube:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/YouTube.list"
     path: ./ruleset/YouTube.list
-    interval: 259200
+    interval: 86400
   Netflix:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Netflix.list"
     path: ./ruleset/Netflix.list
-    interval: 259200
+    interval: 86400
   Bahamut:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bahamut.list"
     path: ./ruleset/Bahamut.list
-    interval: 259200
+    interval: 86400
   BilibiliHMT:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BilibiliHMT.list"
     path: ./ruleset/BilibiliHMT.list
-    interval: 259200
+    interval: 86400
   Bilibili:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bilibili.list"
     path: ./ruleset/Bilibili.list
-    interval: 259200
+    interval: 86400
   ChinaMedia:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
     path: ./ruleset/ChinaMedia.list
-    interval: 259200
+    interval: 86400
   ProxyMedia:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
     path: ./ruleset/ProxyMedia.list
-    interval: 259200
+    interval: 86400
   ProxyGFWlist:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
     path: ./ruleset/ProxyGFWlist.list
-    interval: 259200
+    interval: 86400
   ChinaIp:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
     path: ./ruleset/ChinaIp.list
-    interval: 259200
+    interval: 86400
   ChinaDomain:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
     path: ./ruleset/ChinaDomain.list
-    interval: 259200
+    interval: 86400
   ChinaCompanyIp:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
     path: ./ruleset/ChinaCompanyIp.list
-    interval: 259200
+    interval: 86400
   Download:
     type: http
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
     path: ./ruleset/Download.list
-    interval: 259200
+    interval: 86400
 rules:
   - IP-CIDR,47.109.44.134/32,💀 内网环境,no-resolve
   - RULE-SET,LocalAreaNetwork,🎯 全球直连
