@@ -417,11 +417,11 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🌎 美国
       - 🪐 香港
-      - DIRECT
       - 🇨🇳 成都
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
