@@ -24,7 +24,7 @@ dns:
     - tls://i455546056.666.66a.net:853
     - https://i455546056.666.66a.net/dns-query/pure
 proxies:
-  - name:  "🇺🇸 hysteria2"
+  - name: "🇺🇸 hysteria2"
     type: hysteria2
     server: 108.165.254.86
     up: "500 Mbps"
@@ -408,8 +408,8 @@ proxy-groups:
   - name: 💀 内网环境
     type: select
     proxies:
-    - DIRECT
-    - 阿里云-成都
+      - DIRECT
+      - 阿里云-成都
   - name: 🐟 漏网之鱼
     type: select
     proxies:
