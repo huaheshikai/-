@@ -1,11 +1,6 @@
 mode: rule
 log-level: info
-ipv6: true
-geo-update-interval: 24
-geox-url:
-  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+ipv6: false
 
 dns:
   enable: true
