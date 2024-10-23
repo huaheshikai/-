@@ -53,20 +53,6 @@ proxies:
     skip-cert-verify: false
     servername: yahoo.com
     network: tcp
-  - name: 🇭🇰 Reality
-    server: nathk1.bytevirt.net
-    port: 39269
-    reality-opts:
-      public-key: bNqxm1NMrVuj844iSWKyPQMYDBz1AEThK-BqRfdNSnM
-      short-id: 112ade3c6d92
-    client-fingerprint: chrome
-    type: vless
-    uuid: e208c0c7-c9e0-415a-85dc-5e0845af3b63
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: yahoo.com
-    network: tcp
   - name: "🇨🇳 成都"
     type: ss
     server: 47.109.44.134
@@ -188,7 +174,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 hysteria2
-      - 🇭🇰 Reality
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
