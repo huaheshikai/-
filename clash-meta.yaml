@@ -58,10 +58,10 @@ proxies:
     port: 39269
     reality-opts:
       public-key: bNqxm1NMrVuj844iSWKyPQMYDBz1AEThK-BqRfdNSnM
-      short-id: 4ce87e7693b679fa
+      short-id: 112ade3c6d92
     client-fingerprint: chrome
     type: vless
-    uuid: ff1522b0-e38f-4856-99cf-b493f559fbcc
+    uuid: e208c0c7-c9e0-415a-85dc-5e0845af3b63
     tls: true
     tfo: false
     skip-cert-verify: false
