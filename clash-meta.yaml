@@ -31,6 +31,14 @@ proxies:
     port: 31185
     password: RiLuoWuHai
     skip-cert-verify: true
+  - name: "🇭🇰 hysteria2"
+    type: hysteria2
+    server: nathk1.bytevirt.net
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 39264
+    password: RiLuoWuHai
+    skip-cert-verify: true
   - name: 🇺🇸 Reality
     server: 108.165.254.86
     port: 46491
@@ -165,6 +173,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 hysteria2
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
