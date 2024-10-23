@@ -101,6 +101,13 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "b5PdM6zqGM+dgRKstt9loHClRYmHkU/9zDc7VAmeHsE="
     udp: true
+  - name: "🇭🇰 深港联通 IEPL"
+    type: ss
+    server: 33596250-29a8-431e-af9e-5e731b9e3d0a.huaheshikai.eu.org
+    port: 25266
+    cipher: 2022-blake3-aes-256-gcm
+    password: "b5PdM6zqGM+dgRKstt9loHClRYmHkU/9zDc7VAmeHsE="
+    udp: true
   - name: "阿里云-成都"
     type: ss
     server: 47.109.44.134
@@ -161,6 +168,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
   - name: 📲 电报消息
     type: select
     proxies:
@@ -177,6 +185,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
       - DIRECT
   - name: 💬 OpenAi
     type: select
@@ -202,6 +211,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -219,6 +229,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
@@ -234,6 +245,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -251,6 +263,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
       - DIRECT
   - name: 🌏 国内媒体
     type: select
@@ -266,6 +279,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -282,6 +296,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -299,6 +314,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -316,6 +332,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -333,6 +350,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
   - name: 🎮 游戏平台
     type: select
     proxies:
@@ -350,6 +368,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -367,6 +386,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
       - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
@@ -382,6 +402,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
       - 🚀 节点选择
       - ♻️ 自动选择
   - name: 🛑 广告拦截
@@ -427,6 +448,7 @@ proxy-groups:
       - 🇭🇰 武汉-香港
       - 🇭🇰 广港IEPL1
       - 🇭🇰 联通-香港 x3
+      - 🇭🇰 深港联通 IEPL
 rule-providers:
   LocalAreaNetwork:
     type: http
