@@ -67,10 +67,10 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
     udp: true
-  - name: "🇺🇸 广港IEPL1"
+  - name: "🇺🇸 厦门"
     type: ss
-    server: 50045ba2-29c9-408c-86b5-976042645f52.huaheshikai.eu.org
-    port: 12333
+    server: 6cf4a639-f0dd-42d3-81d7-f47e426264f6.huaheshikai.eu.org
+    port: 27763
     cipher: 2022-blake3-aes-256-gcm
     password: "pu7ymyAJf5PWuE36BU6G24cmMDeViY6xtNzToS9PoIs="
     udp: true
@@ -95,10 +95,10 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "b5PdM6zqGM+dgRKstt9loHClRYmHkU/9zDc7VAmeHsE="
     udp: true
-  - name: "🇭🇰 广港IEPL1"
+  - name: "🇭🇰 厦门"
     type: ss
-    server: 50045ba2-29c9-408c-86b5-976042645f52.huaheshikai.eu.org
-    port: 12337
+    server: 6cf4a639-f0dd-42d3-81d7-f47e426264f6.huaheshikai.eu.org
+    port: 27764
     cipher: 2022-blake3-aes-256-gcm
     password: "b5PdM6zqGM+dgRKstt9loHClRYmHkU/9zDc7VAmeHsE="
     udp: true
@@ -133,11 +133,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - DIRECT
   - name: ♻️ 自动选择
@@ -149,11 +149,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
   - name: 🌎 美国
     type: url-test
@@ -164,7 +164,7 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
   - name: 🪐 香港
@@ -175,7 +175,7 @@ proxy-groups:
     proxies:
       - 🇭🇰 hysteria2
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
   - name: 📲 电报消息
@@ -188,11 +188,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
       - DIRECT
@@ -214,11 +214,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
       - DIRECT
@@ -232,11 +232,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
       - DIRECT
@@ -248,11 +248,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
       - DIRECT
@@ -266,11 +266,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
       - DIRECT
@@ -282,11 +282,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
   - name: 📢 谷歌FCM
@@ -299,11 +299,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
   - name: Ⓜ️ 微软云盘
@@ -317,11 +317,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
   - name: Ⓜ️ 微软服务
@@ -335,11 +335,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
   - name: 🍎 苹果服务
@@ -353,11 +353,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
   - name: 🎮 游戏平台
@@ -371,11 +371,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
   - name: 🎶 网易音乐
@@ -389,11 +389,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
       - ♻️ 自动选择
@@ -405,11 +405,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
       - 🚀 节点选择
@@ -451,11 +451,11 @@ proxy-groups:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🇺🇸 联通-日本 x3
-      - 🇺🇸 广港IEPL1
+      - 🇺🇸 厦门
       - 🇺🇸 广港IEPL2
       - 🇺🇸 武汉-香港
       - 🇭🇰 武汉-香港
-      - 🇭🇰 广港IEPL1
+      - 🇭🇰 厦门
       - 🇭🇰 联通-香港 x3
       - 🇭🇰 深港联通 IEPL
 rule-providers:
