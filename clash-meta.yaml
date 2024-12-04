@@ -135,7 +135,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 成都
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - DIRECT
@@ -153,7 +152,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 成都
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
   - name: 📢 谷歌FCM
@@ -169,7 +167,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 成都
       - 🚀 节点选择
       - 🌎 美国
       - 🪐 香港
@@ -179,7 +176,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 成都
       - 🚀 节点选择
       - 🌎 美国
       - 🪐 香港
@@ -189,7 +185,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 成都
       - 🚀 节点选择
       - 🌎 美国
       - 🪐 香港
@@ -199,7 +194,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 成都
       - 🚀 节点选择
       - 🌎 美国
       - 🪐 香港
@@ -209,7 +203,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 成都
       - 🚀 节点选择
       - 🌎 美国
       - 🪐 香港
@@ -220,7 +213,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 成都
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
       - 🚀 节点选择
