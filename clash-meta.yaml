@@ -8,20 +8,17 @@ dns:
   listen: 0.0.0.0:53
   ipv6: true
   default-nameserver:
-    - 114.114.114.114
-    - 223.5.5.5
-    - tls://223.5.5.5:853
+    - 223.6.6.6
+    - 119.29.29.29
     - system
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver:
-    - 114.114.114.114
-    - tls://223.5.5.5:853
-    - https://i455546056.666.66a.net/dns-query/pure
-    - quic://pure.666.66a.net:853
+    - tls://152959.alidns.com
+    - tls://dot-a688eaf8.dot.pub
   proxy-server-nameserver:
-    - tls://i455546056.666.66a.net:853
-    - https://i455546056.666.66a.net/dns-query/pure
+    - https://152959.alidns.com/dns-query
+    - https://doh-a688eaf8.doh.pub/dns-query
 proxies:
   - name: "🇺🇸 hysteria2"
     type: hysteria2
