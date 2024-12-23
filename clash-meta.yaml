@@ -17,14 +17,12 @@ dns:
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
     - https://a604268326.666.66a.net/dns-query/pure
-    - h3://t680271917.666.66a.net/dns-query/pure
     - quic://pure.666.66a.net:853
   proxy-server-nameserver:
-      - https://9.9.9.9/dns-query
-      - https://doh.apad.pro/dns-query
-      - https://a604268326.666.66a.net/dns-query/pure
-      - h3://t680271917.666.66a.net/dns-query/pure
-      - quic://pure.666.66a.net:853
+    - https://9.9.9.9/dns-query
+    - https://doh.apad.pro/dns-query
+    - https://a604268326.666.66a.net/dns-query/pure
+    - quic://pure.666.66a.net:853
 proxies:
   - name: "🇺🇸 hysteria2"
     type: hysteria2
