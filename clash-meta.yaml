@@ -44,8 +44,8 @@ proxies:
     server: 108.165.254.86
     port: 46491
     reality-opts:
-      public-key: klzZ8wDFb-l2kxz9HbLK7-xGtUxNEJMERUb--ICDFxA
-      short-id: 485d9b
+      public-key: Jy_H-RMKcUJVyC3jAuTh0FeFS15_6Ofi8JR5SOiatEA
+      short-id: ed6bf4
     client-fingerprint: chrome
     type: vless
     uuid: 52338778-366c-4102-b549-bcaed5b2194c
