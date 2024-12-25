@@ -40,6 +40,26 @@ proxies:
     port: 39264
     password: RiLuoWuHai
     skip-cert-verify: true
+  - name: "🇭🇰 Vless"
+    type: vless
+    server: hk.cloudflare.182682.xyz
+    port: 443
+    uuid: 5041e19a-afe0-41ab-98e2-9dd568c2bdc3
+    tls: true
+    servername: hk.321122.xyz
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+      - http/1.1
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        Host: hk.321122.xyz
+      path: /
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+    network: ws
   - name: 🇺🇸 Reality
     server: 108.165.254.86
     port: 46491
@@ -105,6 +125,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 hysteria2
+      - 🇭🇰 Vless
   - name: 📲 电报消息
     type: select
     proxies:
