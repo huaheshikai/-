@@ -59,7 +59,7 @@ proxies:
     server: 47.109.44.134
     port: 36183
     cipher: 2022-blake3-aes-256-gcm
-    password: 'WSvYVmm7MX07SZJ/+UDlH1IBdR3drKS/tjud4wuNwHM=:kfE2KoeY/uzIOibbP/Bhx8CoV8XN1hZiZ8MGs9snw+E=
+    password: WSvYVmm7MX07SZJ/+UDlH1IBdR3drKS/tjud4wuNwHM=:kfE2KoeY/uzIOibbP/Bhx8CoV8XN1hZiZ8MGs9snw+E=
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
