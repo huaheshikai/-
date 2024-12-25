@@ -61,6 +61,7 @@ proxies:
     port: 36183
     ip: 10.0.0.3/32
     public-key: u32SBLnnsrtx2T88TgBY4G6DZWVxL7Ce68g+m5xUTAE=
+    pre-shared-key: ex5h0Kz3dN8c1390yxk5PJKmJKGcfHxnC7ja5D1fCwo=
     allowed-ips: ['0.0.0.0/0']
     udp: true
 proxy-groups:
