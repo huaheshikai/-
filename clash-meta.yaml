@@ -55,11 +55,13 @@ proxies:
     servername: yahoo.com
     network: tcp
   - name: "阿里云-成都"
-    type: ss
+    type: wireguard
+    private-key: EFA0h9EKu2oz0HJfToe0KKqpIyoOmac3eHEGoMWzRko=
     server: 47.109.44.134
     port: 36183
-    cipher: 2022-blake3-aes-256-gcm
-    password: "mMjZMBfYwns/HRoi/PotQdqthDhcLCM4g97J11yZm1w="
+    ip: 10.0.0.3/32
+    public-key: u32SBLnnsrtx2T88TgBY4G6DZWVxL7Ce68g+m5xUTAE=
+    allowed-ips: ['0.0.0.0/0']
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
