@@ -54,6 +54,15 @@ proxies:
     skip-cert-verify: false
     servername: yahoo.com
     network: tcp
+  - name: 🇺🇸 snell
+    type: snell
+    server: 108.165.254.86
+    port: 39297
+    psk: ys2ns4glmBme9JnRULdbQLmSimvkUgL
+    version: 3
+    obfs-opts:
+      mode: tls
+      host: gateway.icloud.com:443 
   - name: "阿里云-成都"
     type: ss
     server: 47.109.44.134
@@ -70,6 +79,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -87,6 +97,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
   - name: 🪐 香港
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -103,6 +114,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - DIRECT
   - name: 💬 OpenAi
     type: select
@@ -121,6 +133,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -131,6 +144,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
@@ -138,6 +152,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -148,6 +163,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - DIRECT
   - name: 🌏 国内媒体
     type: select
@@ -164,6 +180,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -173,6 +190,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -182,6 +200,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -191,6 +210,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
   - name: 🎮 游戏平台
     type: select
     proxies:
@@ -200,6 +220,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -209,6 +230,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
@@ -216,6 +238,7 @@ proxy-groups:
       - DIRECT
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
       - 🚀 节点选择
       - ♻️ 自动选择
   - name: 🛑 广告拦截
@@ -253,6 +276,7 @@ proxy-groups:
       - 🪐 香港
       - 🇺🇸 hysteria2
       - 🇺🇸 Reality
+      - 🇺🇸 snell
 rule-providers:
   LocalAreaNetwork:
     type: http
