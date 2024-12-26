@@ -32,14 +32,6 @@ proxies:
     port: 31185
     password: RiLuoWuHai
     skip-cert-verify: true
-  - name: "🇭🇰 hysteria2"
-    type: hysteria2
-    server: nathk1.bytevirt.net
-    up: "500 Mbps"
-    down: "500 Mbps"
-    port: 39264
-    password: RiLuoWuHai
-    skip-cert-verify: true
   - name: "🇭🇰 Vless"
     type: vless
     server: hk.cloudflare.182682.xyz
@@ -115,7 +107,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 hysteria2
       - 🇭🇰 Vless
   - name: 📲 电报消息
     type: select
