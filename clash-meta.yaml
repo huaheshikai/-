@@ -263,6 +263,7 @@ proxy-groups:
       - 阿里云-成都
   - name: ⚓ 小众网站
     type: select
+    proxies:
       - DIRECT
   - name: 🐟 漏网之鱼
     type: select
