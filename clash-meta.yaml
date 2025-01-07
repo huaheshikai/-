@@ -261,6 +261,9 @@ proxy-groups:
     proxies:
       - DIRECT
       - 阿里云-成都
+  - name: ⚓ 小众软件
+    type: select
+      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -508,6 +511,13 @@ rule-providers:
     behavior: classical
     url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
     path: ./ruleset/Download.list
+    interval: 86400
+    format: text
+  miemiemie:
+    type: http
+    behavior: classical
+    url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
+    path: ./ruleset/miemiemie.list
     interval: 86400
     format: text
 rules:
