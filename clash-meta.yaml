@@ -509,14 +509,14 @@ rule-providers:
   Download:
     type: http
     behavior: classical
-    url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
+    url: "https://gh.321122.xyz/raw.githubusercontent.com/huaheshikai/-/main/rule/miemiemie.list"
     path: ./ruleset/Download.list
     interval: 86400
     format: text
   miemiemie:
     type: http
     behavior: classical
-    url: "https://gh.321122.xyz/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
+    url: ""
     path: ./ruleset/miemiemie.list
     interval: 86400
     format: text
