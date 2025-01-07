@@ -513,11 +513,11 @@ rule-providers:
     path: ./ruleset/Download.list
     interval: 86400
     format: text
-  miemiemie:
+  Miemiemie:
     type: http
     behavior: classical
-    url: "https://gh.321122.xyz/raw.githubusercontent.com/huaheshikai/-/main/rule/miemiemie.list"
-    path: ./ruleset/miemiemie.list
+    url: "https://gh.321122.xyz/raw.githubusercontent.com/huaheshikai/-/main/rule/Miemiemie.list"
+    path: ./ruleset/Miemiemie.list
     interval: 86400
     format: text
 rules:
@@ -556,5 +556,5 @@ rules:
   - RULE-SET,Download,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - IP-CIDR,47.109.44.134/32,💀 内网环境,no-resolve
-  - RULE-SET,miemiemie,⚓ 小众网站
+  - RULE-SET,Miemiemie,⚓ 小众网站
   - MATCH,🐟 漏网之鱼
