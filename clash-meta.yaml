@@ -261,7 +261,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 阿里云-成都
-  - name: ⚓ 小众软件
+  - name: ⚓ 小众网站
     type: select
       - DIRECT
   - name: 🐟 漏网之鱼
@@ -556,4 +556,5 @@ rules:
   - RULE-SET,Download,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - IP-CIDR,47.109.44.134/32,💀 内网环境,no-resolve
+  - RULE-SET,miemiemie,⚓ 小众网站
   - MATCH,🐟 漏网之鱼
