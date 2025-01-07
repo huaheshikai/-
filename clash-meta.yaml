@@ -517,10 +517,10 @@ rule-providers:
   Miemiemie:
     type: http
     behavior: classical
-    url: "https://gh.321122.xyz/raw.githubusercontent.com/huaheshikai/-/main/rule/Miemiemie.list"
-    path: ./ruleset/Miemiemie.list
+    url: "https://gh.321122.xyz/raw.githubusercontent.com/huaheshikai/-/main/rule/Miemiemie.yaml"
+    path: ./ruleset/Miemiemie.yaml
     interval: 86400
-    format: text
+    format: yaml
 rules:
   - RULE-SET,LocalAreaNetwork,🎯 全球直连
   - RULE-SET,UnBan,🎯 全球直连
