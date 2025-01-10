@@ -552,10 +552,10 @@ rules:
   - RULE-SET,Bahamut,🌍 国外媒体
   - RULE-SET,ChinaMedia,🌏 国内媒体
   - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - IP-CIDR,47.109.44.134/32,💀 内网环境,no-resolve
   - RULE-SET,ChinaDomain,🎯 全球直连
   - RULE-SET,ChinaCompanyIp,🎯 全球直连
   - RULE-SET,Download,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
-  - IP-CIDR,47.109.44.134/32,💀 内网环境,no-resolve
   - RULE-SET,Miemiemie,⚓ 小众网站
   - MATCH,🐟 漏网之鱼
