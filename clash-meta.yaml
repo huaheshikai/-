@@ -31,6 +31,14 @@ proxies:
     port: 31185
     password: RiLuoWuHai
     skip-cert-verify: true
+  - name: "🇭🇰 hysteria2"
+    type: hysteria2
+    server: hk.321122.xyz
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 39264
+    password: RiLuoWuHai
+    skip-cert-verify: true
   - name: "🇭🇰 Vless"
     type: vless
     server: hk.cloudflare.182682.xyz
@@ -114,6 +122,7 @@ proxy-groups:
     proxies:
       - 🇭🇰 Vless
       - 🇭🇰 ipv6
+      - 🇭🇰 hysteria2
   - name: 📲 电报消息
     type: select
     proxies:
