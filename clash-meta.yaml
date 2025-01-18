@@ -1,6 +1,6 @@
 mode: rule
 log-level: info
-ipv6: false
+ipv6: true
 dns:
   enable: true
   prefer-h3: true
