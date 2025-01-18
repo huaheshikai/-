@@ -78,7 +78,7 @@ proxies:
       host: gateway.icloud.com:443 
   - name: "阿里云-成都"
     type: ss
-    server: 47.109.44.134
+    server: huaheshikai.cn
     port: 36183
     cipher: 2022-blake3-aes-256-gcm
     password: WSvYVmm7MX07SZJ/+UDlH1IBdR3drKS/tjud4wuNwHM=:kfE2KoeY/uzIOibbP/Bhx8CoV8XN1hZiZ8MGs9snw+E=
