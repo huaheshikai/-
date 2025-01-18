@@ -33,7 +33,7 @@ proxies:
     skip-cert-verify: true
   - name: "🇭🇰 hysteria2"
     type: hysteria2
-    server: hk.321122.xyz
+    server: hkv6.321122.xyz
     up: "500 Mbps"
     down: "500 Mbps"
     port: 39264
