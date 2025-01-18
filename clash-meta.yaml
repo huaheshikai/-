@@ -48,7 +48,7 @@ proxies:
   - name: "🇭🇰 ipv6"
     type: vless
     port: 80
-    server: hk.cloudflare.182682.xyz
+    server: hkv6.321122.xyz
     ws-opts:
       headers:
         Host: hkv6.321122.xyz
