@@ -51,6 +51,13 @@ proxies:
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
     network: ws
+  - name: "🇭🇰 ipv6"
+    type: vless
+    server: [2a12:bec0:168:13d::]
+    port: 38409
+    udp: true
+    uuid: 51a2cc5e-c979-4dc3-a0b2-513b4cf1823c
+    network: tcp
   - name: 🇺🇸 Reality
     server: 108.165.254.86
     port: 46491
@@ -107,6 +114,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 Vless
+      - 🇭🇰 ipv6
   - name: 📲 电报消息
     type: select
     proxies:
