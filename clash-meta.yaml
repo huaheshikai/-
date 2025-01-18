@@ -31,7 +31,15 @@ proxies:
     port: 31185
     password: RiLuoWuHai
     skip-cert-verify: true
-  - name: "🇭🇰 hysteria2"
+  - name: "🇺🇸 v6"
+    type: hysteria2
+    server: usv6.321122.xyz
+    up: "500 Mbps"
+    down: "500 Mbps"
+    port: 31185
+    password: RiLuoWuHai
+    skip-cert-verify: true
+  - name: "🇭🇰 v6"
     type: hysteria2
     server: hkv6.321122.xyz
     up: "500 Mbps"
@@ -100,6 +108,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸 hysteria2
+      - 🇺🇸 v6
       - 🇺🇸 Reality
       - 🇺🇸 snell
   - name: 🪐 香港
@@ -109,7 +118,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 Vless
-      - 🇭🇰 hysteria2
+      - 🇭🇰 v6
   - name: 📲 电报消息
     type: select
     proxies:
