@@ -53,18 +53,6 @@ proxies:
         Host: hk.321122.xyz
       path: /
     network: ws
-  - name: "🇭🇰 ipv6"
-    type: vless
-    port: 80
-    server: hkv6.321122.xyz
-    ws-opts:
-      headers:
-        Host: hkv6.321122.xyz
-      path: /
-    udp: true
-    uuid: 51a2cc5e-c979-4dc3-a0b2-513b4cf1823c
-    network: ws
-    skip-cert-verify: true
   - name: 🇺🇸 Reality
     server: 108.165.254.86
     port: 46491
@@ -121,7 +109,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 Vless
-      - 🇭🇰 ipv6
       - 🇭🇰 hysteria2
   - name: 📲 电报消息
     type: select
