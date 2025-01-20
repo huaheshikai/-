@@ -17,9 +17,9 @@ dns:
     - https://223.5.5.5/dns-query   #阿里云dns
     - https://doh.pub/dns-query     #腾讯云dns
     - https://a604268326.666.66a.net/dns-query/pure    #果冻云
-    - https://9.9.9.9/dns-query #9.9.9.9
+    - https://dns.quad9.net/dns-query #9.9.9.9
   proxy-server-nameserver:
-    - https://9.9.9.9/dns-query  #Quad9
+    - https://dns.quad9.net/dns-query  #Quad9
     - https://a604268326.666.66a.net/dns-query/pure   #果冻云
 proxies:
   - name: "🇺🇸 hysteria2"
