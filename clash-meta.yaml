@@ -62,6 +62,7 @@ proxies:
         Host: hk.321122.xyz
       path: /
     network: ws
+    flow: xtls-rprx-vision
   - name: 🇺🇸 Reality
     server: us.321122.xyz
     port: 46491
